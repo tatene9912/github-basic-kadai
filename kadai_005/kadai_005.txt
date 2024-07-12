@@ -1,0 +1,36 @@
+C:\Users\user>cd git_challenge
+
+C:\Users\user\git_challenge>git init
+Initialized empty Git repository in C:/Users/user/git_challenge/.git/
+
+C:\Users\user\git_challenge>git add hello_world.txt
+
+C:\Users\user\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) 5d5cf29] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\user\git_challenge>git add hello_world.txt
+
+C:\Users\user\git_challenge>git commit -m "日本語訳を追記"
+[main b4ad2fb] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\user\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\user\git_challenge>git log
+commit b4ad2fbfbf8e42cd1dd2029a0d77970e267a2fb2 (HEAD -> main)
+Author: tatene9912 <t.atene0l4o1v2e@gmail.com>
+Date:   Fri Jul 12 12:26:21 2024 +0900
+
+    日本語訳を追記
+
+commit 5d5cf29bfcea34647cbb0f8d9bb9329d09da266e
+Author: tatene9912 <t.atene0l4o1v2e@gmail.com>
+Date:   Fri Jul 12 12:24:47 2024 +0900
+
+    hello_world.txtを追加
+
+C:\Users\user\git_challenge>
